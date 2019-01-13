@@ -1,0 +1,24 @@
+{
+    "nested": {
+      "BasicTracerCarrier": {
+        "fields": {
+          "trace_id": {
+            "type": "string",
+            "id": 1
+          },
+          "span_id": {
+              "type": "string",
+              "id": 2
+          },
+          "sampled": {
+              "type": "bool",
+              "id": 3
+          },
+          "baggage_items": {
+              "type": "map<string, string>",
+              "id": 4
+          }
+        }
+      }
+    }
+  }
